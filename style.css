@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
+.main {
+    background-color: blanchedalmond;
+}
+.header {
+    min-height: 28px;
+}
 .container {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
     height: 100svh;
     place-items: center;
-    background-color: blanchedalmond;
     border: 2px solid darkred;
 }
 
