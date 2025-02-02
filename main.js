@@ -15,6 +15,9 @@ openModal.addEventListener('click', () => {
 })
 closeModal.addEventListener('click', () => {
     modal.close();
+    if (myLibrary.length === 0){
+        return main.appendChild(restoreGuide);
+    }
 })
 
 // Get Title, Author and Pages from the form element
